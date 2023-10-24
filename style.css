@@ -1,0 +1,38 @@
+/* */
+/* styles.css */
+
+
+html, body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-image: url('globe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#top-right {
+    font-size: 1em;
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+    background-color: lightgray; /* Background color for the entire menu */
+    text-align: right;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black; /* Text color for menu items */
+    padding: 20px 20px; /* Adjust the padding to change the size of menu items */
+}
+
+/* Add styles for the hover effect */
+nav a:hover {
+    background-color: #555; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+}
