@@ -9,7 +9,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 h1 { 
@@ -19,7 +18,6 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 1em 3em 1em 3em;
-
 }
 
 #top-right {
@@ -31,12 +29,14 @@ h1 {
     text-align: right;
     margin-left: 50%;
     margin-top: 20%;
+    overflow: auto;
 }
 
 nav a {
     text-decoration: none;
     color: black; /* Text color for menu items */
     padding: 20px 20px; /* Adjust the padding to change the size of menu items */
+    width: 33.3%;
 }
 
 nav a:hover {
@@ -44,21 +44,34 @@ nav a:hover {
     color: #fff; /* Text color on hover */
 }
 
-drop {
-    background-color: aquamarine;
-    text-align: center;
-    justify-content: center;
+.drop {
+    height: 8em;
+    background-color: #f0f8ff;
+    margin: 1em 6em 1em 6em; 
+
+    text-align: center; /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+
 select {
-    width: 200px; /* Set a width for the dropdown to control the width of the list */
+    background-color: antiquewhite;
+    width: 30em; /* Set a width for the dropdown to control the width of the list */
     display: block;
-    text-align: center;
+
 }
 
 option {
+    background-color: aquamarine;
     display: block; /* Display options as block elements (stacked vertically) */
     padding: 50px; /* Add padding for better spacing */
     text-align: center;
+    justify-content: center;
+    
 }
 
+.textarea{
+    background-color: thistle;
+}
