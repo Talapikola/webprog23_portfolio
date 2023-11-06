@@ -5,6 +5,7 @@
     <meta name="viewport, content="width=device-width, initial-scale="1.0">
     <title>webprog23</title>
     <link rel="stylesheet" href="style.css">
+    <script src="webprog.js" async></script>
 </head>
 <body>
     <nav id="top-right">
@@ -17,25 +18,19 @@
 
     <h1>Language Navigator</h1>
 
-    <div class="drop">
-        <label for="myDropdown">Land</label>
-        <select id="myDropdown">
-            <option value="Germany">Germany</option>
-            <option value="UK">UK</option>
-            <option value="France">France</option>
-            <option value="Banana">US</option>
-        </select>
+   <div> 
+    <input type="text" id="myInput" onkeyup="displayResult()" placeholder="Search for country..">
+    <ul id="myUL"> </ul>
+    <button onclick="displayResult()">Enter country</button>
+   </div> 
 
-        <label for="myDropdown">Sprache</label>
-        <select id="myDropdown">
-            <option value="Germany">Germany</option>
-            <option value="UK">UK</option>
-            <option value="France">France</option>
-            <option value="Banana">US</option>
-        </select>
-    </div>
-    
+   <div id="result">Result</div>
+
+
+
+
     <div class="textarea"></Textarea></div>
+    <script src="webprog.js" async></script>
 
 
 </body>
